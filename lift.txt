@@ -1,0 +1,16 @@
+let floor = +prompt("На який вам поверх?");
+let password;
+
+if (floor < 1 || floor > 102) {
+    console.log("невірний поверх");
+} else if (floor > 23 && floor < 40) {
+    password = +prompt("ведіть пароль");
+
+    if (password === 1337) {
+        console.log("ок");
+    } else {
+        console.log("невірний пароль");
+    }
+} else {
+    console.log("ок");
+}
