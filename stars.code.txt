@@ -1,0 +1,50 @@
+let size = +prompt("Ведiть число");                 
+
+for (let i = 0; i < size; i++) {
+    for (let y = 0; y <= i; y++) {
+        console.put("*");
+    }
+
+    console.log();
+}
+---------------------------------------
+
+for (let i = +prompt("Ведіть розмір трикутника"); i > 0; i--) {
+    for (let y = 0; y < i; y++) {
+        console.put("*");
+    }
+
+    console.log();
+}
+---------------------------------------
+
+
+let size = +prompt("Ведіть розмір трикутника");
+
+for (let i = 0; i < size; i++) {
+    for (let y = 0; y < i; y++) {
+        console.put(" ");
+    }
+
+    for (let j = size; j > i; j--) {
+        console.put("*");
+    }
+
+    console.log();
+}
+--------------------------------------
+
+
+let size = +prompt("ведіть розмір трикутника");
+
+for (let i = size; i > 0; i--) {
+    for (let j = 0; j < i - 1; j++) {
+        console.put(" ");
+    }
+
+    for (let y = size; y >= i; y--) {
+        console.put("*");
+    }
+
+    console.log();
+}
