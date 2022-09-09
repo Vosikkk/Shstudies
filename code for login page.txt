@@ -1,0 +1,17 @@
+let login = prompt("Ведіть логін");
+
+if (login === "Admin") {
+    let password = prompt("Ведіть пароль");
+
+    if (password === "Господар") {
+        alert("Вітаю");
+    } else if (password === "" || password === null) {
+        alert("скасовано");
+    } else {
+        alert("неправильний пароль");
+    }
+} else if (login === null || login === "") {
+    alert("скасовано");
+} else {
+    alert("я вас не знаю");
+}
