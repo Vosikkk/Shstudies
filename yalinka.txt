@@ -1,0 +1,27 @@
+let size = +prompt("Ведіть розмір ялинки");
+
+for (let i = 0; i < size; i++) {
+    for (let j = size; j > i + 1; j--) {
+        console.put(" ");
+    }
+
+    for (let y = 0; y <= i; y++) {
+        {
+            console.put("*");
+        }
+    }
+
+    for (let g = 0; g < i; g++) {
+        console.put("*");
+    }
+
+    console.log();
+}
+
+for (let i = 0; i < size - 1; i++) {
+    console.put(" ");
+}
+
+if (size > 0) {
+    console.put("*");
+}
